@@ -1,0 +1,33 @@
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.logo {
+	display: block;
+	margin: auto;
+}
+
+.panel-heading {
+	background-color: #d71149 !important;
+}
+
+.panel-body {
+	padding: 0;
+}
+
+.list-header {
+	font-weight: bold;
+	padding: 5px;
+	background-color: #ddd;
+}
+
+.float-right {
+	display: block;
+	float: right;
+}
+
+.reload-button {
+	position: fixed;
+    top: 20px;
+    left: calc(100% - 80px);
+    color: white;
+}
